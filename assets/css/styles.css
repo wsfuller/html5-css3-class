@@ -1,0 +1,119 @@
+/* This is a CSS comment */
+html {
+  /* background-color: blue; */
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: cursive;
+  color: purple;
+}
+
+/* body {
+  background-color: pink;
+} */
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  font-size: 28px;
+  /* display: none;
+  visibility: hidden; */
+}
+
+.red-box {
+  background-color: red;
+}
+
+.yellow-box {
+  background-color: yellow;
+}
+
+.green-box {
+  background-color: green;
+}
+
+.red-box-see-through {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.yellow-box-see-through {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+.green-box-see-through {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+
+.center-align-text {
+  text-align: center;
+}
+
+.right-align-text {
+  text-align: right;
+}
+
+.left-align-text {
+  text-align: left;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+/* CSS Shortcode Top > Right > Bottom > Left */
+/*padding: 10px;*/
+/*
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+*/
+/*padding: 12px 16px;*/
+/*
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+*/
+
+/*padding: 12px 16px 8px;*/
+/*
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+*/
+
+/*padding: 12px 16px 8px 24px;*/
+/*
+  padding-top: 12px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
